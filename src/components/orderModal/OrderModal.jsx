@@ -10,7 +10,7 @@ export function OrderModal({ modalIsOpen, setModalIsOpen }) {
         <>
             <Modal className={s.modal} isOpen={modalIsOpen}>
                 <p>Заявка на товар</p>
-                <img onClick={closeModal} className={s.close} src="./close.png" alt="close" />
+                <img onClick={closeModal} className={s.close} src="./close_admin.png" alt="close" />
             </Modal>
         </>
     )

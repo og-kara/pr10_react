@@ -31,7 +31,7 @@ export function Catalog() {
                     filteredProducts.length ?
                     filteredProducts.map((product) => {
                         return (
-                            <Card id={product.id} img={product.img} name={product.name} price={product.price} />
+                            <Card id={product.id} img={product.img} name={product.name} price={product.price} count={product.count}/>
                         )
                     })
                     :
